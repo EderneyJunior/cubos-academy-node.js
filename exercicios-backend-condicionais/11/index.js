@@ -6,3 +6,9 @@ const mesesDecorridos = 12;
 
 // Soma das parcelas já pagas pelo aluno nos meses anteriores (em centavos). Se for igual a 18 mil reais, o aluno não deve pagar mais nada, pois já quitou a dívida.
 const totalJaPagoPeloAluno = 1000000;
+
+if (mesesDecorridos <= 60 && rendaMensalEmCentavos >= 200000) {
+    const taxa = (rendaMensalEmCentavos * 0.018) * 0.1
+    console.log(`O valor da parcela desse mês é de R$${taxa} reais.`)
+
+}
