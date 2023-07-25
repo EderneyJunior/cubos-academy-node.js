@@ -1,6 +1,8 @@
-const diaDaSemana = 5;
+const diaDaSemana = 8;
 
-if (diaDaSemana == 1) {
+if (diaDaSemana < 1 || diaDaSemana > 7){
+    console.log('O dia da semana informado não é válido.')
+ } else if (diaDaSemana == 1) {
     console.log('Segunda-Feira')
 } else if (diaDaSemana == 2) {
     console.log('Terça-Feira')
