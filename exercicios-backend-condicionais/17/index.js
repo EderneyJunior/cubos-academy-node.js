@@ -7,13 +7,7 @@ const quantidadeDoParcelamento = 10;
 //valor pago
 const valorPago = 300;
 
-let valorParcela = (valorDoProduto * 0.01) / quantidadeDoParcelamento
-let c = valorParcela
-let parcelas = 0
+const valorParcela = (valorDoProduto / 100) / quantidadeDoParcelamento
+const parcelasApagar = quantidadeDoParcelamento - (valorPago/valorParcela)
 
-while(c <= valorPago) {
-    c += valorParcela
-    parcelas += 1
-}
-
-console.log(`Restam ${quantidadeDoParcelamento - parcelas} parcelas de R$${valorParcela}`)
+console.log(`Restam ${parcelasApagar} parcelas de R$${valorParcela}`)
