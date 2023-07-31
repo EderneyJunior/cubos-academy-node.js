@@ -37,11 +37,11 @@ jose.carrinho[2]['quantidade'] = 1
 
 carlos.carrinho.push({})
 carlos.carrinho[0]['item'] = notebook
-carlos.carrinho[0][quantidade] = 2
+carlos.carrinho[0]['quantidade'] = 2
 
 patricia.carrinho.push({})
 patricia.carrinho[0]['item'] = teclado
-patricia.carrinho[0][quantidade] = 1
+patricia.carrinho[0]['quantidade'] = 1
 
 patricia.carrinho.push({})
 patricia.carrinho[1]['item'] = caboUsb
