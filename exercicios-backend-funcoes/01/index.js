@@ -26,3 +26,6 @@ const prova = {
     ]
 };
 
+function corrigirProva(prova) {
+    
+}
