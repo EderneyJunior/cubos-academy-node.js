@@ -13,7 +13,7 @@ const prova = {
         },
         {
             resposta: "e",
-            correta: "b"
+            correta: "e"
         },
         {
             resposta: "b",
@@ -27,5 +27,16 @@ const prova = {
 };
 
 function corrigirProva(prova) {
-    
+    let acertos = 0
+
+    for (let p of prova.questoes) {
+        if (p.resposta === p.correta) {
+            acertos++
+        }
+    }
+
+    return acertos
 }
+
+const quantidadeAcertos = corrigirProva(prova)
+console.log(`O aluno(a) ${prova.aluno} acertou ${quantidadeAcertos} questões e obteve nota ${quantidadeAcertos * 2}`)
