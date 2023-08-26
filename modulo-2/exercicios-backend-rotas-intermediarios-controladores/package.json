@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./01/index.js"
+    "dev1": "nodemon ./01/index.js",
+    "dev2": "nodemon ./02/index.js",
+    "dev3": "nodemon ./03/index.js"
   },
   "keywords": [],
   "author": "",
